@@ -1,0 +1,10 @@
+.genero{
+    font-family: 'Arial', sans-serif;
+    color: #0b0000;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px; 
+  }
