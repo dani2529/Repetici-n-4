@@ -18,8 +18,6 @@ async function mostrarApiData() {
                             <p> apellido: ${data.results[0].name.last}</p>
     
     `;
-    console.log(data, "data <---- async");
 
-    console.log("entro a la funcnion async");
 
 }

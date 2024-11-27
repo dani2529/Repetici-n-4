@@ -6,10 +6,6 @@ const Form = ({setUser}) => {
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
-
-    console.log(name,' name <---');
-    console.log(password,' password <---');
-
     const handleSubmit = (e) => {
         e.preventDefault();
 

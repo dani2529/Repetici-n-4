@@ -1,11 +1,10 @@
-import React from "react";
-import Image from "../image/Image";
-import Titulo from "../titulo/titulo";
-import Detalle from "../detalle/detalle";
-import './CaracterCard.css';
+import React from 'react'
+import Image from '../image/Image'
+import Titulo from '../titulo/titulo'
+import Detalle from '../detalle/detalle'
+import './CaracterCard.css'
 
-function CharacterCard(props) {
- 
+const CaracterCard = (props) => {
   return (
     <div className="image-container">
       <div className="imag">    
@@ -21,7 +20,7 @@ function CharacterCard(props) {
         <Detalle genre={props.genero} status={props.status} />
       </div>
     </div>
-  );
+  )
 }
 
-export default CharacterCard;
+export default CaracterCard

@@ -19,8 +19,6 @@ function App() {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, "data <------");
-        console.log(data.name, "nombre personaje");
         setName(data.name);
         setImage(data.image);
         setGenre(data.species);
